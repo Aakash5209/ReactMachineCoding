@@ -1,0 +1,29 @@
+.elevatorContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.elevatorShaft{
+    position: relative;
+    width: 100px;
+    height: 400px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.elevator{
+    position: absolute;
+    border: 1px solid black;
+    width: 80%;
+    height: 60px;
+    /* bottom: 80%; */
+}
+
+.isMoving{
+    background-color: grey;
+}
