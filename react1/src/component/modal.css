@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.modalContainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+.modalOverlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.modal{
+    background-color: antiquewhite;
+    border: 1px solid black;
+    width: 300px;
+    padding: 20px;
+
+}
